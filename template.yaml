@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: order-service
+  annotations:
+    backstage.io/techdocs-ref: value
   description: This service receives new orders and processes them
   tags:
     - nodejs
